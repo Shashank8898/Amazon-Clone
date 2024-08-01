@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-search:hover{
+    border: 2px orange solid;
+}
+#d{
+    color: #CCCC;
+    font-size: 0.85rem;
+    margin-left : 15px;
+}
+#I{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly ;
+    width: 600px;
+    height: 45px ;
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.searchicon{
+    background-color: orange;
+    display: flex;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+.search-input{
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+#h{
+    font-size: 12px;
+}
+#o1{
+    font-size: 14px;
+    background-color: #0f1111;
+}
+.account{
+    background-color: #0f1111;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    justify-content: center;
+}
+#p1{
+    color: white;
+}
+#p2{
+    color: white;
+    font-weight: bolder;
+}
+.cart{
+     font-size: 25px;
+}
+#first{
+    font-weight: bolder;
+}
+.panel-items{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+    height: 40px;
+    width: 1537px;
+    color: white;
+    align-items: center;
+    font-size: 14px;
+}
+.hero{
+    background-image:url("hero_image.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    height: 250px;
+}
+.shop-section1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    background-color:lightgray;
+    width: 100%;
+}
+.box1{
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+} 
+.box:hover{
+    border: 3px solid black;
+}
+.phone{
+    background-image: url("box8_image.jpg");
+    height: 50%;
+    background-size: cover;
+    margin-top: 20%;
+    
+}
+.box2{
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+} 
+.animal{
+    background-image: url("box6_image.jpg");
+    height: 50%;
+    margin-top: 20%;
+    background-size: cover;
+}
+.box3{
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.lip{
+    background-image: url("box5_image.jpg");
+    height: 50%;
+    background-size: cover;
+    margin-top: 20%;
+}
+.box4{
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.furn{
+    background-image: url("box3_image.jpg");
+    height: 50%;
+    background-size: cover;
+    margin-top: 20%;
+}
+.box5{
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    border: 3px solid black;
+}
+.box6{
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    border: 3px solid black;
+}
+.text{
+    text-align:right;
+    font-weight: 200;
+    font-size: smaller;
+    color: cadetblue;
+    width: 100%;
+    justify-content: end;
+}
+.shopsection2{
+    background-color: lightgray;
+    height: 20px;
+    width: 1480px;
+
+
+}
+.store{
+    background-color: white;
+    height: 240px;
+    padding: 10px 20px;
+}
